@@ -6,3 +6,4 @@ Comment=Mindustry: A sandbox tower-defense game.
 Icon=com.github.Anuken.Mindustry
 Terminal=false
 Exec=mindustry.sh
+Categories=Game;
