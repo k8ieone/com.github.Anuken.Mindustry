@@ -42,5 +42,6 @@
     <content_attribute id="violence-cartoon">intense</content_attribute>
     <content_attribute id="violence-fantasy">intense</content_attribute>
     <content_attribute id="violence-realistic">mild</content_attribute>
+    <content_attribute id="social-chat">intense</content_attribute>
  </content_rating>
 </component>
