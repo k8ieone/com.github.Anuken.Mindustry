@@ -1,6 +1,6 @@
 app-id: com.github.Anuken.Mindustry
 runtime: org.freedesktop.Platform
-runtime-version: '19.08'
+runtime-version: '20.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk11
@@ -50,5 +50,5 @@ modules:
         path: mindustry.sh
 
       - type: file
-        url: https://github.com/Anuken/Mindustry/releases/download/v104.6/Mindustry.jar
-        sha256: 3b23138986211a1238c1f7cdd5e12a3572c2824de9a619c292196747fa75b87d
+        url: https://github.com/Anuken/Mindustry/releases/download/v120/Mindustry.jar
+        sha256: 602e68a2644819dea3bbb341ab4281f19f84f609f7bad6cc6cad2454febfc8f9
