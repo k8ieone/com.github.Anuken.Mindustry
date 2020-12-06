@@ -27,6 +27,24 @@
  <url type="contact">https://discord.gg/mindustry</url>
  <update_contact>tobiasmue@gnome.org</update_contact>
  <releases>
+    <release version="v121" date="2020-12-06">
+        <description>
+            <p>
+	            <ul>
+		            <li>Fixed rebuilding a core near vault causing resources to drop to 1K</li>
+		            <li>Fixed captured sectors getting locked</li>
+	            </ul>
+	            Campaign multiplayer changes:
+	            <ul>
+		            <li>New host research is now carried over to clients</li>
+		            <li>Clients can now use their research even if the host doesn't have it</li>
+		            <li>Clients can now research new tech in multiplayer</li>
+		            <li>Clients will now receive a copy of resources produced in the current sector, distributed across their sectors</li>
+		            <li>Added a hint that explains this information</li>
+	            </ul>
+            </p>
+        </description>
+    </release>
     <release version="v104.6" date="2020-03-27" />
     <release version="v104.1" date="2020-02-12">
         <description>
