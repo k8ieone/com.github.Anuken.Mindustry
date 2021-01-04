@@ -27,6 +27,19 @@
  <url type="contact">https://discord.gg/mindustry</url>
  <update_contact>tobiasmue@gnome.org</update_contact>
  <releases>
+   <release version="v122.1" date="2020-12-29">
+     <description>
+       <p>
+         <ul>
+           <li>Various minor bugfixes</li>
+           <li>Increased power source output again</li>
+           <li>Improved building beam visuals</li>
+           <li>Improved performance of maps with many adjacent power nodes/batteries</li>
+           <li>Disabled weather in editor</li>
+         </ul>
+       </p>
+     </description>
+   </release>
    <release version="v122" date="2020-12-23">
      <description>
        <p>

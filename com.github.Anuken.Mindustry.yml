@@ -50,5 +50,5 @@ modules:
         path: mindustry.sh
 
       - type: file
-        url: https://github.com/Anuken/Mindustry/releases/download/v122/Mindustry.jar
-        sha256: d2fbd3da4df5f0a5edc4986654638c3604dcb639c6b87897d119a29b31862b40
+        url: https://github.com/Anuken/Mindustry/releases/download/v122.1/Mindustry.jar
+        sha256: 5048a2289e7af88e64478900dcc9dcc1e95991e8cb7938c24f13e21d66a14e44
