@@ -27,6 +27,19 @@
  <url type="contact">https://discord.gg/mindustry</url>
  <update_contact>tobiasmue@gnome.org</update_contact>
  <releases>
+   <release version="v122.1" date="2020-12-29">
+     <description>
+       <p>
+         <ul>
+           <li>Various minor bugfixes</li>
+           <li>Increased power source output again</li>
+           <li>Improved building beam visuals</li>
+           <li>Improved performance of maps with many adjacent power nodes/batteries</li>
+           <li>Disabled weather in editor</li>
+         </ul>
+       </p>
+     </description>
+   </release>
    <release version="v122" date="2020-12-23">
      <description>
        <p>
@@ -49,6 +62,57 @@
            <li>Slight pulsar damage nerf</li>
          </ul>
        </p>
+     </description>
+   </release>
+   <release version="v121.4" date="2020-12-15">
+     <description>
+       <p>
+         <ul>
+           <li>Fixed flying unit AI</li>
+           <li>Made conduits/conveyors upgrades follow paths (Contributed by @Slava0135)</li>
+         </ul>
+       </p>
+     </description>
+   </release>
+     <release version="v121.3" date="2020-12-14">
+       <description>
+         <p>
+           <ul>
+             <li>Decreased junction item capacity - this may cause slight desync on servers running previous 121 versions, servers are advised to update</li>
+             <li>Many various small bugfixes</li>
+           </ul>
+         </p>
+       </description>
+   </release>
+     <release version="v121.1" date="2020-12-09">
+       <description>
+         <p>
+           <ul>
+             <li>Slightly increased Lancer build cost</li>
+             <li>Double-tapping now enters a campaign map (Contributed by @joshuaptfan)</li>
+             <li>Minor logic memory optimizations - block/sensor constants are no longer stored in every processor</li>
+             <li>Doubled surge smelter item capacity</li>
+             <li>Made Fungal Pass slightly easier</li>
+             <li>Fixed some achievements not working [Steam]</li>
+             <li>Fixed some rare crashes</li>
+             <li>Fixed unit spawn shockwave appearing too late</li>
+             </ul>
+           </p>
+         </description>
+      </release>
+    <release version="v121" date="2020-12-06">
+      <description>
+        <p>
+	        <ul>
+		        <li>Fixed rebuilding a core near vault causing resources to drop to 1K</li>
+		        <li>Fixed captured sectors getting locked</li>
+		        <li>New host research is now carried over to clients</li>
+		        <li>Clients can now use their research even if the host doesn't have it</li>
+		        <li>Clients can now research new tech in multiplayer</li>
+		        <li>Clients will now receive a copy of resources produced in the current sector, distributed across their sectors</li>
+		        <li>Added a hint that explains this information</li>
+	        </ul>
+        </p>
      </description>
    </release>
  </releases>
