@@ -27,6 +27,50 @@
  <url type="contact">https://discord.gg/mindustry</url>
  <update_contact>tobiasmue@gnome.org</update_contact>
  <releases>
+   <release version="v123" date="2021-01-20">
+     <description>
+       <p>
+         <ul>
+           <li>Fixed same-line logic comments not parsing</li>
+           <li>Fixed Kamikaze achievement not triggering with flying units [Steam]</li>
+           <li>Fixed mass driver rotating before payload is received</li>
+           <li>Fixed bullets dealing splash damage twice upon collision - splash damage of certain bullets has been increased to compensate</li>
+           <li>Fixed floating point errors in core database leading to incorrect rounding</li>
+           <li>Fixed unit payloads snapping rotations when entering reconstructors</li>
+           <li>Fixed builder AI placing drills on incorrect/mixed resources and clogging crafters</li>
+           <li>Fixed editor mirror filter being offset in certain situations</li>
+           <li>Fixed music randomly cutting off after quit to main menu</li>
+           <li>Campaign: Made invasion chance scale with nearby enemy base count</li>
+           <li>Campaign: Added 20-minute invasion grace period after sector capture</li>
+           <li>Made impact reactor warmup time scale with boost (@Quezler)</li>
+           <li>Made players prioritize highest tier core when respawning</li>
+           <li>Made logic programs reset all state on edits</li>
+           <li>Made logic blocks no longer change 'last accessed' names when no edits are made</li>
+           <li>Made naval paths preload on maps with spawn points on liquids</li>
+           <li>Made Plastanium sprite slightly more distinct</li>
+           <li>Made ground units avoid walking in slag/deep water even when it is the only valid path</li>
+           <li>Made fire disappear faster in rain</li>
+           <li>Made conveyor items render under most blocks</li>
+           <li>Made server prevent duplicate IP connections</li>
+           <li>Made crosses render on item/liquid sources and sorters in schematics</li>
+           <li>Made building disabled state save upon world reload</li>
+           <li>Made status indicators smaller for 1x1 blocks</li>
+           <li>Made mod browser list mods by last update time</li>
+           <li>Implemented automatic mod list updates (currently, every 4 hours)</li>
+           <li>Improved unit selection visuals (@Voz-Duh)</li>
+           <li>Improved power status information (@Slava0135)</li>
+           <li>Added boost % bar too overdrive projectors (@Quezler)</li>
+           <li>Added IPv6 address support to join dialog (@markozajc)</li>
+           <li>Added core item incineration rule (@Quezler)</li>
+           <li>Added carried payloads to unit status bars and info (Partially implemented by @Slava0135)</li>
+           <li>Added slight shine effect, triggering upon building rotation</li>
+           <li>Removed overflow gate inventory</li>
+           <li>Increased power source output</li>
+           <li>Many other minor bugfixes and tweaks</li>
+         </ul>
+       </p>
+     </description>
+   </release>
    <release version="v122.1" date="2020-12-29">
      <description>
        <p>
