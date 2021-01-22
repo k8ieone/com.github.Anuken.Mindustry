@@ -27,6 +27,19 @@
  <url type="contact">https://discord.gg/mindustry</url>
  <update_contact>tobiasmue@gnome.org</update_contact>
  <releases>
+   <release version="v123.1" date="2021-01-21">
+     <description>
+       <p>
+         <ul>
+           <li>Fixed negative numbers not displaying properly in power nodes</li>
+           <li>Fixed mod minVersion parsing</li>
+           <li>Fixed mods disappearing after import [Android]</li>
+           <li>Disabled duplicate IP prevention system</li>
+           <li>Added mod browser sort order button</li>
+         </ul>
+       </p>
+     </description>
+   </release>
    <release version="v123" date="2021-01-20">
      <description>
        <p>
