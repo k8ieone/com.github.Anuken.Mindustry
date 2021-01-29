@@ -20,6 +20,14 @@
     <image>https://mindustrygame.github.io/images/1.png</image>
     <caption>Defend your base from waves of powerful enemies</caption>
   </screenshot>
+  <screenshot type="default">
+    <image>https://mindustrygame.github.io/images/2.png</image>
+    <caption>Build complex designs for processing materials</caption>
+  </screenshot>
+  <screenshot type="default">
+    <image>https://mindustrygame.github.io/images/3.png</image>
+    <caption>Build and fight with other players on multiplayer servers</caption>
+  </screenshot>
  </screenshots>
  <url type="homepage">https://mindustrygame.github.io/</url>
  <url type="bugtracker">https://github.com/Anuken/Mindustry</url>
