@@ -1,0 +1,26 @@
+[
+    {
+        "type": "file",
+        "url": "https://repo.maven.apache.org/maven2/com/github/javaparser/javaparser-core/3.14.14/javaparser-core-3.14.14.jar",
+        "sha256": "6781985e2b17142bd07e1a7be59b793485cb026b37667377d16610ae98148b6e",
+        "dest": "dependencies"
+    },
+    {
+        "type": "file",
+        "url": "https://jitpack.io/com/github/libgdx/gdx-jnigen/gdx-jnigen-gradle/dffc32eecbf77aad264991ea44f1767a58cbee9d/gdx-jnigen-gradle-dffc32eecbf77aad264991ea44f1767a58cbee9d.jar",
+        "sha256": "9ee531338cc3578f3ef19f91b27d9d8448641f8c0e71f1bada5cfce015210c7d",
+        "dest": "dependencies"
+    },
+    {
+        "type": "file",
+        "url": "https://jitpack.io/com/github/libgdx/gdx-jnigen/gdx-jnigen/dffc32eecbf77aad264991ea44f1767a58cbee9d/gdx-jnigen-dffc32eecbf77aad264991ea44f1767a58cbee9d.jar",
+        "sha256": "6ddf31af8fd882f41bbdd1646b25dd24aa4cbd8c04f579484a87f6d2fb1f7125",
+        "dest": "dependencies"
+    },
+    {
+        "type": "file",
+        "url": "https://jitpack.io/com/github/libgdx/gdx-jnigen/gdx-jnigen/28dd11fa4c33a7ae9e58897912b52ba7d53d54fe/gdx-jnigen-28dd11fa4c33a7ae9e58897912b52ba7d53d54fe.jar",
+        "sha256": "7cfb33ce204fad30c009b06e2fa3b1276a0ad620388b3064e133072b9ddbf864",
+        "dest": "dependencies"
+    }
+]
