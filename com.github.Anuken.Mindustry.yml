@@ -31,6 +31,8 @@ modules:
   - name: mindustry-binary
     buildsystem: simple
     build-commands:
+      - unzip desktop-natives.zip
+      - zip -ujv Mindustry.jar natives/natives-desktop/libs/libarcarm64.so natives/natives-freetype-desktop/libs/libarc-freetypearm64.so backends/backend-sdl/libs/linuxarm64/libsdl-arcarm64.so
       - install -D Mindustry.jar /app/bin/Mindustry.jar
       - install -D mindustry.sh /app/bin/mindustry.sh
       - install -D com.github.Anuken.Mindustry.desktop /app/share/applications/com.github.Anuken.Mindustry.desktop
@@ -42,6 +44,11 @@ modules:
         url: https://f-droid.org/repo/io.anuke.mindustry/en-US/icon_Eno3XvqCZUcHRm3eMjiUleAxgzLopPe6-hkI7BHx1lU=.png
         dest-filename: com.github.Anuken.Mindustry.png
         sha256: 127a375efa82654707466dde32389495e0318332e8a4f7bafa1908ec11f1d655
+
+      - type: file
+        url: https://github.com/k8ieone/com.github.Anuken.Mindustry/raw/refs/heads/tmp-artifact-zip/desktop-natives.zip
+        dest-filename: desktop-natives.zip
+        sha256: 0a787ec95a8a7edb73d8e02d176e12a11173b84d1f5345b7b59dffed29251e88
 
       - type: file
         path: com.github.Anuken.Mindustry.metainfo.xml
